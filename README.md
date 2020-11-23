@@ -1,4 +1,4 @@
-# gro2glycamq
+# Program
 
 ###### gromacs -> nwchem -> ensemble-average charges
 
