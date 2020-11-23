@@ -1,6 +1,7 @@
 # Program
 
-###### gromacs -> nwchem -> ensemble-average charges
+#### coords.xyz (coords.xvg) -> input.nw  
+nwchem input.nw -> ensemble-average charges
 
 #### input:
 molecule.gro and molecule.itp file  
