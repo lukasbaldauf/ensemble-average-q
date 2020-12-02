@@ -7,6 +7,7 @@ Assuming you have run a GROMACS simulation of your molecule, you can run
     gmx trjconv -f md.xtc -s md.tpr -b 980 -dt 1000 -center -pbc mol
     
 with the desired spacing of intervals and select your interesting molecule for cenetering and output. The outfile (trajout.xtc) and a topology file of your molecule, e.g. an .itp file is used as input for ensemble-average-q.py to create the NWChem files with all dihedral angles frozen to the values in the trajectory. 
+
 #### NOTE!
 The number of NWChem input files is determined by the number of snapshots in the trajectory. NWChem options should be changed in the python script according to your molecule of interest. 
 
