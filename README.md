@@ -17,35 +17,35 @@ Required python packages: \
 Numpy \
 MDAnalysis 
 
-###### The following are the results from 200 snapshots of a 200 ns GROMACS simulation using ACPYPE of alpha-L-GulA with a methyl group attached to O1 at the HF/6-31G* level of theory with all dihedral angles frozen to their MD values.  
+###### The following are the results from a 200 ns GROMACS simulation of alpha-L-GulA-OMe using ACPYPE to make GLYCAM compatible with GROMACS. 200 equally spaced snapshots were extracted from the trajectory and their geometry optimized the HF/6-31G* level of theory with all dihedral angles frozen to their MD values using NWChem. 
 
-| Atom type | Mean charge | Std. dev. |
-| --- | --- | --- |
-   H3  |    0.000   |   0.000
-  CH3  |    0.203   |   0.015
-   H2  |    0.000   |   0.000
-   H3  |    0.000   |   0.000
-   O   |   -0.431   |   0.032
-   C1  |    0.436   |   0.045
-   H1  |    0.000   |   0.000
-   O5  |   -0.526   |   0.042
-   C5  |    0.221   |   0.076
-   H5  |    0.000   |   0.000
-   C6  |    0.891   |   0.061
-  O6B  |   -0.840   |   0.021
-  O6A  |   -0.840   |   0.021
-   C4  |    0.238   |   0.096
-   H4  |    0.000   |   0.000
-terminal O4  |   -0.769   |   0.046
-  H4O  |    0.426   |   0.043
-   C3  |    0.347   |   0.079
-   H3  |    0.000   |   0.000
-   O3  |   -0.765   |   0.035
-  H3O  |    0.410   |   0.022
-   C2  |    0.353   |   0.088
-   H2  |    0.000   |   0.000
-   O2  |   -0.764   |   0.042
-  H2O  |    0.410   |   0.025
-  O4*  |   
-  H1O^ |
-  O1^  |
+| Atom type | Mean charge | Std. dev. | Comment |
+| --- | --- | --- | --- |
+H1  |   0.000 |  0.000 |                            
+CH3 |   0.264 |  0.000 |                            
+H2  |   0.000 |  0.000 |                            
+H3  |   0.000 |  0.000 |                            
+ O  |  -0.458 |  0.000 |                            
+C1  |   0.333 |  0.049 |                            
+H1  |   0.000 |  0.000 |                            
+O5  |  -0.499 |  0.043 |                            
+C5  |   0.191 |  0.069 |                            
+H5  |   0.000 |  0.000 |                            
+C6  |   0.906 |  0.053 |                            
+O6B |  -0.847 |  0.018 |                            
+O6A |  -0.847 |  0.018 |                            
+C4  |   0.284 |  0.094 |                            
+H4  |   0.000 |  0.000 |                            
+O4  |  -0.786 |  0.049 |terminal unit               
+H4O |   0.430 |  0.044 |                            
+C3  |   0.298 |  0.083 |                            
+H3  |   0.000 |  0.000 |                            
+O3  |  -0.747 |  0.040 |                            
+H3O |   0.403 |  0.025 |                            
+C2  |   0.445 |  0.097 |                            
+H2  |   0.000 |  0.000 |                            
+O2  |  -0.783 |  0.041 |                            
+H2O |   0.413 |  0.022 |                            
+O4  |  -0.550 |   -    |= O4 + H4O + O + CH3           
+H1O |   0.445 |   -    |taken from glycam default 
+O1  |  -0.639 |   -    |taken from glycam default 
