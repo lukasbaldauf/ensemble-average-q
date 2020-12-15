@@ -1,6 +1,6 @@
 # ensemble-average-q
 
-#### Create NWChem input files for the calculation of restrained electrostatic potential (RESP) atomic partial charges according to GLYCAMs ensemble-averaging procedure.
+#### Create NWChem input files for the calculation of ensemble-average RESP atomic partial charges according to GLYCAMs ensemble-averaging procedure.
 
 Assuming you have run a GROMACS simulation of your molecule, you can run 
 
