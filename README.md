@@ -17,7 +17,7 @@ Required python packages: \
 Numpy \
 MDAnalysis 
 
-###### The following are the results from a 200 ns GROMACS simulation of alpha-L-GulA-OMe using ACPYPE to make GLYCAM compatible with GROMACS. 200 equally spaced snapshots were extracted from the trajectory and their geometry optimized the HF/6-31G* level of theory with all dihedral angles frozen to their MD values using NWChem. 
+###### The following are the results from a 200 ns GROMACS simulation of alpha-L-GulA-OMe using ACPYPE to make GLYCAM compatible with GROMACS. 200 equally spaced snapshots were extracted from the trajectory and their geometry optimized the HF/6-31G* level of theory using NWChem. All dihedral angles were frozen to their MD snapshot values.
 
 | Atom type | Mean charge | Std. dev. | Comment |
 | --- | --- | --- | --- |
@@ -47,5 +47,7 @@ H2  |   0.000 |  0.000 |
 O2  |  -0.783 |  0.041 |                            
 H2O |   0.413 |  0.022 |                            
 O4  |  -0.550 |   -    |= O4 + H4O + O + CH3           
-H1O |   0.445 |   -    |taken from glycam default 
-O1  |  -0.639 |   -    |taken from glycam default 
+H1O |   0.445 |   -    |glycam default for H1O
+O1  |  -0.639 |   -    |glycam default for O1 
+
+Values for beta-D-manA-OMe wil be supplemented shortly with the intent to simulate alginates using the GLYCAM force field. 
