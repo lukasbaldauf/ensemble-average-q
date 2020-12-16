@@ -9,7 +9,7 @@ Required python packages: \
 Numpy \
 MDAnalysis 
 
-###### The following are the results from a 200 ns GROMACS simulation of alpha-L-GulA-OMe using ACPYPE to make GLYCAM compatible with GROMACS. 200 equally spaced snapshots were extracted from the trajectory and their geometry optimized the HF/6-31G* level of theory using NWChem. All dihedral angles were frozen to their MD snapshot values.
+###### The following are the results from a 200 ns GROMACS simulation of alpha-L-GulA-OMe in the 1C4 ring conformation, using ACPYPE to make GLYCAM compatible with GROMACS. 200 equally spaced snapshots were extracted from the trajectory and their geometry optimized the HF/6-31G* level of theory using NWChem. All dihedral angles were frozen to their MD snapshot values.
 
 | Atom type | Mean charge | Std. dev. | Comment |
 | --- | --- | --- | --- |
