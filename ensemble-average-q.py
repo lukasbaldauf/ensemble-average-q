@@ -24,9 +24,9 @@ geometry units angstroms print xyz autosym # extracted xyz coordinates are put b
 """
 end = """
 basis                                  
-  O  library 6-311++G**                        
-  H  library 6-311++G**                                    
-  C  library 6-311++G**                                        
+  O  library 6-31G*                        
+  H  library 6-31G*                                    
+  C  library 6-31G*                                        
 end
                                                             
 scf                                                         
