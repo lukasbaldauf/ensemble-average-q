@@ -9,7 +9,7 @@ Required python packages: \
 Numpy \
 MDAnalysis 
 
-###### The following are the results from a 200 ns GROMACS simulation of alpha-L-GulA-OMe in the 1C4 ring conformation, using ACPYPE to make GLYCAM compatible with GROMACS. 200 equally spaced snapshots were extracted from the trajectory and their geometry optimized the HF/6-31G* level of theory using NWChem. All dihedral angles were frozen to their MD snapshot values.
+###### The following are the results from a 200 ns GROMACS simulation of alpha-L-GulA-OMe in the 1C4 ring conformation and beta-D-manA-OMe in the 4C1 ring conformation, using ACPYPE to make GLYCAM compatible with GROMACS. 200 equally spaced snapshots were extracted from the trajectory and their geometry optimized the HF/6-31G* level of theory using NWChem. All dihedral angles were frozen to their MD snapshot values.
 | Atom type |av. q gulA |std. q gulA |av. q manA |std. q manA| Comment |
 | --- | --- | --- | --- | --- | --- |
 H1  |   0.000 |  0.000 |  0.000 | 0.000 |            
@@ -41,8 +41,6 @@ O4  |  -0.550 |   -    | -0.548 |   -   | = O4 + H4O + O + CH3
 H1O |   0.445 |   -    |  0.445 |   -   | glycam default for H1O 
 O1  |  -0.639 |   -    | -0.639 |   -   | glycam default for O1  
 
-
-Values for beta-D-manA-OMe wil be supplemented shortly with the intent to simulate alginates using the GLYCAM force field. 
 
 
 Assuming you have run a GROMACS simulation of your molecule, you can run 
