@@ -3,11 +3,6 @@ from MDAnalysis.coordinates import XYZ
 from MDAnalysis.analysis.dihedrals import Dihedral
 import numpy as np
 
-# For Gromacs:
-    #$ gmx trjconv -f md.xtc -s md.tpr -b 980 -dt 100000 -center -pbc mol
-    # select interesting molecule for cenetering and output
-    # outfile is trajout.xtc
-    
 
 
 TOPOLOGY_FILE = 'gulA.itp'
