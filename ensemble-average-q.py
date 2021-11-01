@@ -8,7 +8,8 @@ import numpy as np
 TOPOLOGY_FILE = 'gulA.itp'
 TRAJECTORY_FILE = 'traj.xtc'
 OUTPUT_FILE = 'gulA_ens_av_q' # +'frame_nr.nw'
-ATOM_SELECTION = 'not name C1 C2 C3 C4 C5 O5' # atoms that dont get dihedral angles fixed
+ATOM_SELECTION = 'all'
+# ATOM_SELECTION = 'not name C1 C2 C3 C4 C5 O5' # atoms that dont get dihedral angles fixed
 
 # NWCHEM input options
 start = """
